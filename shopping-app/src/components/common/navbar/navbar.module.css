@@ -1,0 +1,33 @@
+.nav_main_container {
+  background-color: var(--color1);
+  display: flex;
+  justify-content: space-between; /* Changed to space-between */
+  align-items: center; /* Align items vertically center */
+  padding: 10px 30px; /* Added padding to the container */
+}
+
+.nav_container {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_container a {
+  text-decoration: none;
+}
+.nav_container a:hover {
+  color: var(--text1);
+}
+
+.main_logo {
+  display: inline-block;
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+  font-style: Bolder;
+  font-size: xx-large;
+  background-color: var(--color4);
+  padding: 5px 10px;
+  border-style: double;
+}
